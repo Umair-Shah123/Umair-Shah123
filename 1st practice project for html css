@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <body>
+<style>
+
+body{
+  background-color:#00FA9B;
+  margin: 20px;
+  
+}
+#title{
+  text-align: center;
+  font-size: 7vh;
+  text-shadow: 5px 5px 10px white;
+}
+img
+{
+  display: inline-blocks;
+  width: 500px;
+  
+}
+#caption{
+  font-size: 17px;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#tribute_data{
+  padding: 25px 25px;
+  margin: 10px;
+
+}
+#tribute_link{
+  text-decoration: none;
+  color: black;
+}
+td,th,table{
+  border: 1px solid grey;
+ border-collapse: collapse;
+}
+#mark{
+  color: coral;
+}
+
+
+
+</style>
+    <main>
+      <link rel="stylesheet" href="CSS/normalize.css" />
+      <link rel="stylesheet" href="CSS/style.css" />
+      <h1 id="title">A.P.J Abdul Kalam Sir</h1>
+      <figure>
+        <img id="image" src="images/APJ kalam.JPG" />
+      </figure>
+      <article id="caption">
+        Avul Pakir Jainulabdeen Abdul Kalam BR was an Indian aerospace scientist
+        and statesman who served as the 11th president of India from 2002 to
+        2007.
+      </article>
+      <div id="tribute_data">
+        <h1 class="tribute">About Legend</h1>
+        <p>
+          Dr. A.P.J. Abdul Kalam, fondly known as the
+          <strong><mark id="mark">"Missile Man of India,"</mark></strong>
+          was a visionary scientist and the 11th President of India, serving
+          from 2002 to 2007. Born on October 15, 1931, in Rameswaram, Tamil
+          Nadu, he rose from humble beginnings to become one of the most
+          respected figures in Indian history. Kalam's contributions to the
+          Indian space and missile programs are monumental. He played a pivotal
+          role in the development of India's first indigenous Satellite Launch
+          Vehicle (SLV-III), which successfully deployed the Rohini satellite in
+          1980, and was instrumental in the development of the Agni and Prithvi
+          missiles. Beyond his scientific achievements, Dr. Kalam was an
+          inspiring leader and educator, dedicating his life to igniting young
+          minds and promoting education and innovation. He authored several
+          books, including the best-selling autobiography
+          <strong>"Wings of Fire," </strong>which continues to inspire millions
+          across the globe. Known for his humility, simplicity, and unyielding
+          commitment to public service, Dr. Kalam's legacy endures through his
+          profound impact on science, education, and the aspirations of a
+          nation. His vision for India as a developed nation, encapsulated in
+          his book <strong>"India 2020,"</strong> remains a guiding light for
+          future generations. Dr. Kalam passed away on July 27, 2015, while
+          delivering a lecture, leaving behind a legacy of dreams, achievements,
+          and an indomitable spirit.
+        </p>
+      </div>
+      <a id="tribute_link" href="#" target="_blank">Link</a>
+      <strong>A.P.J Abdul Kalam</strong>
+      <h3>Brief Introduction</h3>
+      <table>
+        <tr>
+          <thead>
+            <th>Category</th>
+            <th>Details</th>
+          </thead>
+        </tr>
+        <tr>
+          <td>Full Name</td>
+
+          <td>Avul Pakir Jainulabdeen Abdul Kalam</td>
+        </tr>
+        <tr>
+          <td>D.O.B</td>
+          <td>October 15, 1931</td>
+        </tr>
+        <tr>
+          <td>Place of Birth</td>
+          <td>Rameswaram, Tamil Nadu, India</td>
+        </tr>
+        <tr>
+          <td>Date of Death</td>
+          <td>July 27, 2015</td>
+        </tr>
+        <tr>
+          <td>Education</td>
+          <td>
+            B.Sc. in Physics from St. Joseph's College, Tiruchirappalli;
+            Aerospace Engineering from Madras Institute of Technology
+          </td>
+        </tr>
+        <tr>
+          <td>Career</td>
+          <td>Scientist, Engineer, Author, Professor</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
