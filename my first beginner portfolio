@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <style>
+body{
+  margin: 10px;
+  padding: 5px;
+  background-color:hsl(353deg, 50%, 61%);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+   font-weight: normal;
+}
+header{
+  background-color:hsl(353deg, 40%, 61%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+ 
+}
+h1{
+  margin-bottom: 10 px;
+}
+ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline;
+  margin: 0 10px;
+}
+nav ul a:visited{
+  color: #fff;
+}
+a:visited{
+  color:blue;
+}
+#aboutme img{
+width: 300px;
+height: auto;
+border: 1px 10px ;
+}
+.box{
+  width: 200px;
+  height: 250px;
+  background-color:rgba(66, 190, 245,0.2);
+  border-radius: 5px;
+  box-shadow: 10px 10px grey;
+}
+.box2{
+  width:200px;
+  height: 200px;
+  background-color: hsla(200deg, 90%, 61%,0.3);
+  border-radius: 5px;
+  box-shadow: 10px 10px grey;
+
+}
+.box4{
+  width:200px;
+  height: 150px;
+  background-color: hsla(200deg, 90%, 61%,0.3);
+  border-radius: 5px;
+  box-shadow: 10px 10px grey;
+ 
+}
+h2,h1,h3{
+   
+  text-shadow:2px 2px grey;
+  
+}
+ol li{
+  list-style:lower-roman;
+}
+#contact ul li{
+color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <header>
+      <h1>Welcome to My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about" target="_blank">About Me</a></li>
+          <li><a href="#projects" target="_blank">Projects</a></li>
+          <li><a href="#contact" target="_blank">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="aboutme">
+      <h2>About Me</h2>
+      <p>
+        My name is Umair Shah.I am a <strong>BSCS </strong>student. I am in
+        <strong>7th Semester</strong>.I started course of HTML and CSS.
+        specialize in building modern, responsive websites that are both
+        functional and visually appealing.
+      </p>
+      <img src="images/My portfolio.jpeg" alt="My Portfolio Picture" />
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="box">
+        <h3>CRMS</h3>
+        <p>
+          The <strong><em>Car Rental Management System</em></strong> is a
+          comprehensive database design that contain efficiently managing and
+          organizing information related to Car Rental Business. It stores the
+          details of Cars ,Employees and Customers dealings etc.
+        </p>
+      </div>
+      <div class="box2">
+        <h3>CRMS</h3>
+        <p>
+          Convert Car Rental Management System into <strong>C++ </strong>for
+          utilizing data structures and algorithms. Managing car details,
+          customer details, car rentals, rental history and waiting lists.
+        </p>
+      </div>
+      <div class="box3">
+        <h3>Practice HTML CSS</h3>
+        <p>
+          Tribute To <span>Abdul Kalam</span>.I design a simple web page on this
+          topic.I uses links,images,tables and cotainer etc.
+        </p>
+      </div>
+    </section>
+    <section id="Skills">
+      <h2>My Skills</h2>
+      <div class="box4">
+        <ol>
+          <li>C</li>
+          <li>C++</li>
+          <li>MYSQL</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Data Analysis</li>
+        </ol>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul class="contact">
+        <li><strong>Phone Number</strong></li>
+        <p>+92 307-8814369</p>
+        <li><strong>Email</strong></li>
+        <p>umairshah101546@gmail.com</p>
+      </ul>
+
+      <p>
+        If you want't to get touch with me
+        <a href="mailto:umairshah101546@gmail.com">Email me</a>
+      </p>
+    </section>
+  </body>
+</html>
